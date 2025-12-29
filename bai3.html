@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Biểu mẫu Đăng ký</h1>
+
+    <form action="#" method="POST">
+        <label for="fullname">Họ và tên:</label>
+        <input type="text" id="fullname" name="fullname">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <label for="dob">Ngày sinh:</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+
+        <label>Giới tính:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Nam</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Nữ</label>
+        <br><br>
+
+        <label for="phone">Số điện thoại:</label>
+        <input type="tel" id="phone" name="phone">
+        <br><br>
+    <div class="form-group">
+        <label for="major">Chuyên ngành:</label>
+        <input type="text" id="major" name="major">
+    </div>
+
+    <div class="form-group">
+        <label for="enrollment-year">Năm nhập học:</label>
+        <input type="text" id="enrollment-year" name="enrollment-year" style="width: 100px;">
+    </div>
+
+    <div class="form-group">
+        <label for="gpa">Điểm GPA:</label>
+        <input type="text" id="gpa" name="gpa" style="width: 100px;">
+    </div>
+
+    <div class="form-group address">
+        <label for="address">Địa chỉ:</label>
+        <textarea id="address" name="address"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="class">Lớp học:</label>
+        <select id="class" name="class" style="width: 150px;">
+            <option value="1v">Lớp 1 </option>
+        </select>
+    </div>
+
+    <div class="form-group date-time">
+        <label for="registration-date">Ngày đăng ký học:</label>
+        <input type="date" id="registration-date" name="registration-date">
+        <input type="time" id="registration-time" name="registration-time">
+    </div>
+
+        <input type="submit" value="Gửi thông tin">
+    </form>
+
+</body>
+</html>

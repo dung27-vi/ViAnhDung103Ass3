@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="POST">
+        <div class="form-group">
+            <label for="hoTen">Họ và tên:</label>
+            <input type="text" id="hoTen" name="hoTen">
+        </div>
+
+        <div class="form-group">
+            <label for="ngaySinh">Ngày sinh:</label>
+            <input type="date" id="ngaySinh" name="ngaySinh">
+        </div>
+
+        <div class="form-group radio-group">
+            <label>Giới tính:</label>
+            <input type="radio" id="nam" name="gioiTinh" value="Nam">
+            <label for="nam">Nam</label>
+            <input type="radio" id="nu" name="gioiTinh" value="Nữ">
+            <label for="nu">Nữ</label>
+        </div>
+
+        <div class="form-group">
+            <label for="soCCCD">Số căn cước công dân:</label>
+            <input type="text" id="soCCCD" name="soCCCD">
+        </div>
+
+        <div class="form-group">
+            <label for="ngayCap">Ngày cấp:</label>
+            <input type="date" id="ngayCap" name="ngayCap">
+        </div>
+
+        <div class="form-group">
+            <label for="noiCap">Nơi cấp:</label>
+            <input type="text" id="noiCap" name="noiCap">
+        </div>
+
+        <div class="form-group">
+            <label for="soDienThoai">Số điện thoại:</label>
+            <input type="tel" id="soDienThoai" name="soDienThoai">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div class="form-group">
+            <label for="diaChiThuongTru">Địa chỉ thường trú:</label>
+            <textarea id="diaChiThuongTru" name="diaChiThuongTru" rows="2"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="diaChiTamTru">Địa chỉ tạm trú:</label>
+            <textarea id="diaChiTamTru" name="diaChiTamTru" rows="2"></textarea>
+        </div>
+        
+        <div class="form-group radio-group">
+            <label>Loại căn cước công dân:</label>
+            <input type="radio" id="cccdMoi" name="loaiCCCD" value="Căn cước công dân mới">
+            <label for="cccdMoi">Căn cước công dân mới</label>
+            <input type="radio" id="cccdCu" name="loaiCCCD" value="Căn cước công dân cũ">
+            <label for="cccdCu">Căn cước công dân cũ</label>
+        </div>
+
+        <div class="form-group">
+            <label for="danToc">Dân tộc:</label>
+            <input type="text" id="danToc" name="danToc">
+        </div>
+
+        <div class="form-group">
+            <label for="tonGiao">Tôn giáo:</label>
+            <input type="text" id="tonGiao" name="tonGiao">
+        </div>
+
+        <div class="form-group">
+            <label for="quocTich">Quốc tịch:</label>
+            <input type="text" id="quocTich" name="quocTich" value="Việt Nam">
+        </div>
+
+        <div class="form-group">
+            <label for="hoTenChaMe">Họ tên cha/mẹ:</label>
+            <input type="text" id="hoTenChaMe" name="hoTenChaMe">
+        </div>
+
+        <div class="form-group">
+            <label for="soCMNDChaMe">Số CMND/CCCD của cha/mẹ:</label>
+            <input type="text" id="soCMNDChaMe" name="soCMNDChaMe">
+        </div>
+
+        <div class="form-group">
+            <label for="tinhThanhPho">Tỉnh/Thành phố:</label>
+            <select id="tinhThanhPho" name="tinhThanhPho">
+                <option value="">Chọn Tỉnh/Thành phố</option>
+                <!-- Add options for cities/provinces here -->
+            </select>
+        </div>
+
+        <div class="form-group">
+            <button type="submit">Gửi thông tin</button>
+        </div>
+    </form>
+
+</body>
+</html>
